@@ -36,6 +36,14 @@
       "NEXMO_FAILED_PING_SMS": {
           "description": "When the number of failed pings is 60 send a sms to customer",
           "value": "60"
+      },
+      "NIGHTSCOUT_NOT_UPDATE_SECONDS": {
+          "description": "If after X seconds NIGHTSCOUT entries still not updating  sms is sent to user notifying about",
+          "value": "1800"
+      },
+      "WAIT_AFTER_SMS_MARK": {
+          "description": "After sending the sms if the issue persist, wait for X intents to send the next sms",
+          "value": "30"
       }
     }
   }
